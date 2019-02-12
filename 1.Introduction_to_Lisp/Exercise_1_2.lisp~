@@ -1,0 +1,6 @@
+(defun power (a b)
+  "This function outputs a^b"
+  (if (>= b 0)
+      (power a (- b 1))
+      (* a a)))
+(power 3 2)

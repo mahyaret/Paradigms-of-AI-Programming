@@ -1,4 +1,4 @@
-(defun power (a b)
+(defun power (x n)
   "Power raises x to the nth power. N must be an integer >= 0.
 This executes in log n time, because of the check for even n."
   (cond ((= n 0) 1)
